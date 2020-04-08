@@ -10,7 +10,7 @@ class Navbar extends React.Component{
                 <li>Properties</li>
                 <li>Statistics</li>
             </ul>
-            <div className="navbar-btn">Add Property</div>
+            <div className="navbar-btn"><i class="fas fa-plus"></i>  <span>Add Property</span></div>
         </div>
         )   
  }
