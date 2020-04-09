@@ -36,21 +36,21 @@ class ProfilePreview extends React.Component{
                 <div className="preview-task">
                     <div className="task-icon"></div>
                     <div className="task-info">
-                        <h4>Task info</h4>
+                        <h4>Task title</h4>
                         <span>duo date</span>
                     </div>
                 </div>
                 <div className="preview-task">
                     <div className="task-icon"></div>
                     <div className="task-info">
-                        <h4>Task info</h4>
+                        <h4>Task title</h4>
                         <span>duo date</span>
                     </div>
                 </div>
                 <div className="preview-task">
                     <div className="task-icon"></div>
                     <div className="task-info">
-                        <h4>Task info</h4>
+                        <h4>Task title</h4>
                         <span>duo date</span>
                     </div>
                 </div>

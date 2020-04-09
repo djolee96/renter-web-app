@@ -227,22 +227,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-}
-
-.protfolio-preview-info:nth-child(1) {
-  color: #44e157;
-}
-
-.protfolio-preview-info:nth-child(2) {
-  color: #5659e4;
-}
-
-.protfolio-preview-info:nth-child(3) {
-  color: #ff5c49;
-}
-
-.protfolio-preview-info:nth-child(4) {
-  color: #5659e4;
+  color: #46A093;
 }
 
 .protfolio-preview-info div {
@@ -303,9 +288,15 @@
 }
 
 .view-more {
+  margin-top: 15px;
   cursor: pointer;
   font-size: 12px;
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+
+.view-more:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 /*# sourceMappingURL=app.css.map */

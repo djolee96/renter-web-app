@@ -47,19 +47,9 @@
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
+    color:#46A093;
 }
-.protfolio-preview-info:nth-child(1){
-    color:#44e157
-}
-.protfolio-preview-info:nth-child(2){
-    color:#5659e4
-}
-.protfolio-preview-info:nth-child(3){
-    color:#ff5c49
-}
-.protfolio-preview-info:nth-child(4){
-    color:#5659e4
-}
+
 .protfolio-preview-info div{
     margin-right:20px;
 }
@@ -105,7 +95,12 @@
 }
 
 .view-more {
+    margin-top:15px;
     cursor: pointer;
     font-size: 12px;
     align-self:flex-end;
+}
+
+.view-more:hover{
+    transform: scale(1.2);
 }
