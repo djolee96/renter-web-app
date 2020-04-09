@@ -23,6 +23,7 @@
   height: 12%;
   text-align: center;
   color: #ff5c49;
+  cursor: default;
 }
 
 .sidebar {
@@ -148,5 +149,163 @@
 
 .navbar-btn span {
   font-size: 14px;
+}
+
+.profil-preview-container {
+  width: 30%;
+  margin-left: 2%;
+  background-color: #f4f7fc;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.profil-nav {
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profil-nav-btn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.info-preview {
+  cursor: default;
+  height: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-preview {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.portfolio-preview {
+  cursor: default;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.protfolio-preview-info {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.protfolio-preview-info:nth-child(1) {
+  color: #44e157;
+}
+
+.protfolio-preview-info:nth-child(2) {
+  color: #5659e4;
+}
+
+.protfolio-preview-info:nth-child(3) {
+  color: #ff5c49;
+}
+
+.protfolio-preview-info:nth-child(4) {
+  color: #5659e4;
+}
+
+.protfolio-preview-info div {
+  margin-right: 20px;
+}
+
+.preview-tasks-container {
+  cursor: default;
+  height: 40%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.preview-tasks-container h2, h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.preview-tasks-container h2 {
+  padding-top: 20px;
+}
+
+.preview-task {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.task-icon {
+  width: 42px;
+  height: 42px;
+  background-color: #000;
+}
+
+.task-info {
+  margin-left: 10px;
+}
+
+.task-info span {
+  font-size: 12px;
+}
+
+.view-more {
+  cursor: pointer;
+  font-size: 12px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 /*# sourceMappingURL=app.css.map */
