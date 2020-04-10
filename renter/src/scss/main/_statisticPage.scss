@@ -1,0 +1,73 @@
+.statistic-page{
+    width: 100%;
+    height: 88%;
+
+    overflow-x:hidden;
+    overflow-y:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.statistic-page::-webkit-scrollbar-track {
+    border-radius:10px;
+    background-color: white;
+  }
+  .statistic-page::-webkit-scrollbar{
+    width: 12px;
+    background-color: white;
+  }
+  .statistic-page::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #f4f7fc;
+}
+
+
+.statistic-property-card{
+    background-color: #f4f7fc;
+    color:rgba($color: #000000, $alpha: 0.67);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border-top-left-radius: 30px;
+    width: 48%;
+    height: 150px;
+    margin-right:10px;
+    margin-bottom:20px;
+}
+
+.statistic-property-card-image{
+    width: 100px;
+    height: 100px;
+    background-color:#000;
+    margin-left:20px;
+
+}
+
+.statistic-property-card-roi{
+    width: 90px;
+    text-align: center;
+    transform: rotate(-90deg);
+    margin-right: -30px;
+    border-top: 1px solid rgba(0, 0, 0,0.1);
+}
+
+.statistic-property-card-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 60%;
+    h1{
+        margin-top:0px;
+        margin-bottom:10px;
+        width: 100%;
+    }
+    :nth-child(2){
+        width: 100%;
+    }
+    h4{ 
+        width: 50%;
+    }
+}
