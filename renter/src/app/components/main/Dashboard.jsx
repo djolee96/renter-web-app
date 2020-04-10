@@ -1,17 +1,12 @@
 import React from 'react';
+import DashboardGraph from './DashboardGraph';
 
 class Dashboard extends React.Component{
     render(){
         return(
         <div className="dashboard">
-          <div className="dashboard-graph">
-              <div className="dashboard-graph-nav">
-                  <h3>Statistic of Portfolio</h3>
-                  <select className="period">
-                    <option value="year">Last Year</option>
-                    <option value="month">Last 30 days</option>
-                  </select>
-              </div>
+          <div className="dashboard-graph-container">
+             <DashboardGraph/>
           </div>
           <div className="dashboard-task-container">
             <h1>Tasks</h1>
